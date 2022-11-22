@@ -82,6 +82,7 @@ ul {
     color: var(--accent-text-color);
     border-bottom: 4px solid var(--accent-text-color);
     border-radius: 2px;
+    padding-bottom: 28px;
 }
 
 .header-icon {
@@ -587,10 +588,12 @@ ul {
     justify-content: center;
     background-color: transparent;
     cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    
 }
 .close-icon {
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 .close-button:hover {
